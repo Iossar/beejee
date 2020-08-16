@@ -1,0 +1,21 @@
+{
+    "name": "nick/beejee",
+    "authors": [
+        {
+            "name": "Iossar",
+            "email": "kleymenov@save24.ru"
+        }
+    ],
+    "require": {
+        "illuminate/events": "^7.25",
+        "illuminate/database": "^7.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "public\\" : "public",
+            "app\\" : "app",
+            "app\\Controllers\\" : "app/Controllers",
+            "config\\" : "config"
+        }
+    }
+}

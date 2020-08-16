@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f95e2466-7b3e-408f-a225-6b2f9cabb88d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/select2/select2" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-widget-select2" />
+      <path value="$PROJECT_DIR$/vendor/kartik-v/yii2-krajee-base" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1g8gjxRMoKrTwu7D1cQFq9WXOYa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95e2466-7b3e-408f-a225-6b2f9cabb88d" name="Default Changelist" comment="" />
+      <created>1597501772044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597501772044</updated>
+      <workItem from="1597501773059" duration="8605000" />
+      <workItem from="1597565286856" duration="25195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="203" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597587957393">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="556" y="203" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597587957393" />
+    <state x="694" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597581092172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597581092172" />
+    <state x="719" y="433" key="ComposerInitDialogKey" timestamp="1597504081227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="433" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1597504081227" />
+    <state x="762" y="239" width="431" height="561" key="NewPhpClassDialog" timestamp="1597581033252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="762" y="239" width="431" height="561" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597581033252" />
+    <state x="778" y="444" width="363" height="152" key="NewPhpFileDialog" timestamp="1597585840353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="778" y="444" width="363" height="152" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597585840353" />
+    <state x="834" y="379" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1597504049170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="834" y="379" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597504049170" />
+  </component>
+</project>
