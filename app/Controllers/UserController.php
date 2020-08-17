@@ -14,7 +14,7 @@ class UserController
         $post = $_POST;
         if (!empty($post)) {
             $user = new User();
-            $user->name = htmlspecialchars(trim($post['name']));
+            $user->login = htmlspecialchars(trim($post['login']));
             $user->email = htmlspecialchars(trim($post['email']));
             $user->password =  password_hash(htmlspecialchars(trim($post['password'])),PASSWORD_DEFAULT);
             if ($user->save()) {
@@ -28,8 +28,8 @@ class UserController
     {
         $post = $_POST;
         if (!empty($post)) {
-            $email = htmlspecialchars($post['email']);
-            $user = User::where('email', 'LIKE', $email)->first();
+            $login = htmlspecialchars($post['login']);
+            $user = User::where('login', 'LIKE', $login)->first();
             if ($user && password_verify($post['password'], $user->password)) {
                 $_SESSION['logged_user'] = $user;
                 header("Location: /");

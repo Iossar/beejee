@@ -15,7 +15,6 @@
             "public\\" : "public",
             "app\\" : "app",
             "app\\Controllers\\" : "app/Controllers",
-            "config\\" : "config"
         }
     }
 }

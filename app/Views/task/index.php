@@ -18,9 +18,12 @@
     <?php endif; ?>
 
     <div class="p-2">
-        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['sort' => 'number_asc'])) ?>">Sort by number ASC</a>
-        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['sort' => 'number_desc'])) ?>">Sort by number DESC</a>
-        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['sort' => 'name'])) ?>">Sort by name</a>
+        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['column' => 'username', 'order' => $order])) ?>">Sort by name</a>
+        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['column' => 'email', 'order' => $order])) ?>">Sort by email</a>
+        <a class="btn btn-primary" href="/?<?= http_build_query(array_merge($params, ['column' => 'status', 'order' => $order])) ?>">Sort by status</a>
+        <?php if (!empty($params)) : ?>
+        <a class="btn btn-success" href="/">Remove sort</a>
+        <?php endif; ?>
     </div>
 
 

@@ -17,28 +17,26 @@ class TaskController
             $cur_page = $_GET['page'];
         }
         $start = ($cur_page - 1) * $per_page;
-        //$tasks = Task::offset($start)->limit($per_page)->orderBy()->get();
-        $tasks = Task::offset($start)->limit($per_page)->get();
+        $sort_order = isset($_GET['order']) && strtolower($_GET['order']) == 'desc' ? 'DESC' : 'ASC';
+        $order = $sort_order == 'ASC' ? 'desc' : 'asc';
+
+        $sort_params = $this->sorting();
+        $tasks = Task::offset($start)->limit($per_page)->orderBy($sort_params['column'], $sort_params['order'])->get();
         $count = Task::all()->count();
         $num_pages = ceil($count / $per_page);
         $page = 1;
-
-
-        $this->sorting();
-        $params = $_GET;
         echo View::render(['title' => 'BeeJee Index', 'method_view' => 'task/index', 'method_data' => ['tasks' => $tasks,
-            'page' => $page, 'num_pages' => $num_pages, 'cur_page' => $cur_page, 'params' => $params]]);
+            'page' => $page, 'num_pages' => $num_pages, 'cur_page' => $cur_page, 'params' => $_GET, 'order' => $order]]);
     }
 
     private function sorting()
     {
         $params = $_GET;
-        $pattern_login = "/^[A-z0-9]+$/";
-        if (!empty($params['sort'])) {
-            $sortname = $params['sort'];
-            $field = mb_strstr($sortname, $pattern_login);
-            var_dump($field);
-        }
+        return [
+            'column' => $params['column'] ?? 'id',
+            'order' => $params['order'] ?? 'asc'
+        ];
+
     }
 
     public function show($id)

@@ -2,8 +2,8 @@
 <div class="m-3 col-md-4">
     <form action="/registration" method="post">
         <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="name" name="name" required>
+            <label for="name">Login</label>
+            <input type="text" class="form-control" id="login" placeholder="login" name="login" required>
         </div>
         <div class="form-group">
             <label for="email">Email</label>

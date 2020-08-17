@@ -8,8 +8,8 @@
     <?php endif; ?>
     <form action="/login" method="post">
         <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="email" name="email" required>
+            <label for="login">Login</label>
+            <input type="text" class="form-control" id="login" placeholder="login" name="login" required>
         </div>
         <div class="form-group">
             <label for="password">Password</label>
